@@ -1,0 +1,36 @@
+[
+  {
+      "_id": { "$oid": "661f1a2b0a7e5a001c8b1234" },
+      "name": "Apple iPhone 15",
+      "price": 999,
+      "description": "Latest iPhone with A16 Bionic chip and Dynamic Island.",
+      "ratings": 4.8,
+      "images": [
+          {
+              "image": "https://example.com/iphone15.jpg"
+          }
+      ],
+      "category": "Smartphones",
+      "seller": "Apple Store",
+      "stock": 25,
+      "numOfReviews": 1520,
+      "createdAt": "2024-03-31T12:00:00Z"
+  },
+  {
+      "_id": { "$oid": "661f1a2b0a7e5a001c8b1235" },
+      "name": "Samsung Galaxy S23 Ultra",
+      "price": 1199,
+      "description": "Flagship Samsung smartphone with 200MP camera.",
+      "ratings": 4.7,
+      "images": [
+          {
+              "image": "https://example.com/galaxy-s23-ultra.jpg"
+          }
+      ],
+      "category": "Smartphones",
+      "seller": "Samsung Official",
+      "stock": 18,
+      "numOfReviews": 1345,
+      "createdAt": "2024-03-29T15:30:00Z"
+  }
+]
