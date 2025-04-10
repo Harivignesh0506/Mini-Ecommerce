@@ -17,7 +17,15 @@ const productSchema = new mongoose.Schema({
         type: Number,  // Changed to Number
         default: 0
     },
-    images: [String], // Simplified images array
+    images: [
+        {
+          image: {
+            type: String,
+            required: true
+          }
+        }
+      ],
+       // Simplified images array
     category: {
         type: String,
         required: true

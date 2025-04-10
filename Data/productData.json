@@ -1,36 +1,71 @@
 [
-  {
+    {
       "_id": { "$oid": "661f1a2b0a7e5a001c8b1234" },
       "name": "Apple iPhone 15",
-      "price": 999,
+      "price": 1999,
       "description": "Latest iPhone with A16 Bionic chip and Dynamic Island.",
       "ratings": 4.8,
       "images": [
-          {
-              "image": "https://example.com/iphone15.jpg"
-          }
+        {
+          "image": "https://media.wired.com/photos/6332360740fe1e8870aa3bc0/191:100/w_1280,c_limit/iPhone-14-Review-Gear.jpg?mbid=social_retweet"
+        }
       ],
       "category": "Smartphones",
       "seller": "Apple Store",
       "stock": 25,
       "numOfReviews": 1520,
       "createdAt": "2024-03-31T12:00:00Z"
-  },
-  {
+    },
+    {
       "_id": { "$oid": "661f1a2b0a7e5a001c8b1235" },
       "name": "Samsung Galaxy S23 Ultra",
       "price": 1199,
       "description": "Flagship Samsung smartphone with 200MP camera.",
       "ratings": 4.7,
       "images": [
-          {
-              "image": "https://example.com/galaxy-s23-ultra.jpg"
-          }
+        {
+          "image": "https://github.com/Harivignesh0506/frontend/blob/master/Asstes/Galaxy-S23-Ultra-PNG-HD-Image.png"
+        }
       ],
       "category": "Smartphones",
       "seller": "Samsung Official",
       "stock": 18,
       "numOfReviews": 1345,
       "createdAt": "2024-03-29T15:30:00Z"
-  }
-]
+    },
+    {
+      "_id": { "$oid": "661f1a2b0a7e5a001c8b1236" },
+      "name": "OnePlus 12",
+      "price": 899,
+      "description": "High-performance phone with Snapdragon 8 Gen 2 and fast charging.",
+      "ratings": 4.6,
+      "images": [
+        {
+          "image": "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-12-1.jpg"
+        }
+      ],
+      "category": "Smartphones",
+      "seller": "OnePlus Official Store",
+      "stock": 30,
+      "numOfReviews": 890,
+      "createdAt": "2024-04-01T09:45:00Z"
+    },
+    {
+      "_id": { "$oid": "661f1a2b0a7e5a001c8b1237" },
+      "name": "Google Pixel 8 Pro",
+      "price": 999,
+      "description": "Google's best camera phone with Tensor G3 chip.",
+      "ratings": 4.5,
+      "images": [
+        {
+          "image": "https://store.google.com/us/product/images/phones/pixel_8-pro-snow.png"
+        }
+      ],
+      "category": "Smartphones",
+      "seller": "Google Store",
+      "stock": 20,
+      "numOfReviews": 1042,
+      "createdAt": "2024-04-02T11:20:00Z"
+    }
+  ]
+  

@@ -3,8 +3,13 @@ const mongoose = require("mongoose");
 
 // Get all products - /api/v1/product
 exports.getProducts = async (req, res) => {
+   
     try {
-        const products = await productModel.find({});
+     const query =   req.query.keyword?{name :{
+            $regex: req.query.keyword,
+            $options: "i"
+        }} : {}
+        const products = await productModel.find(query);
     
         res.json({
             success: true,
@@ -33,7 +38,7 @@ exports.getSingleProducts = async (req, res) => {
             });
         }
 
-        const product = await productModel.findById(id);
+        const product = await productModel.findById(req.params.id);
 
         if (!product) {
             return res.status(404).json({
